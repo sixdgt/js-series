@@ -56,3 +56,31 @@ let val = String(num)
 
 console.log(val)
 console.log(typeof val)
+
+// ******************* Operations *********************
+console.log(2+2)
+console.log(2-2)
+console.log(2*2)
+console.log(2**2)
+console.log(2/2)
+console.log(2%2)
+
+// not recommended but is possible
+
+console.log(true)
+console.log(+true)
+console.log(+"")
+
+// assignment operator trick 
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+gameCounter++ // postfix increment 
+console.log(gameCounter)
+++gameCounter // preffix increment
+console.log(gameCounter)
+
+// link to study
+// https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
+
